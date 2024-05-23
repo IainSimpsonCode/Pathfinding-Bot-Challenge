@@ -1,0 +1,14 @@
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\bin\Debug\net6.0\PathfinderCommsTest.exe
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\bin\Debug\net6.0\PathfinderCommsTest.deps.json
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\bin\Debug\net6.0\PathfinderCommsTest.runtimeconfig.json
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\bin\Debug\net6.0\PathfinderCommsTest.dll
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\bin\Debug\net6.0\PathfinderCommsTest.pdb
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\PathfinderCommsTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\PathfinderCommsTest.AssemblyInfoInputs.cache
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\PathfinderCommsTest.AssemblyInfo.cs
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\PathfinderCommsTest.csproj.CoreCompileInputs.cache
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\PathfinderCommsTest.dll
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\refint\PathfinderCommsTest.dll
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\PathfinderCommsTest.pdb
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\PathfinderCommsTest.genruntimeconfig.cache
+C:\Users\Iain Simpson\Desktop\PathfinderCommsTest\PathfinderCommsTest\obj\Debug\net6.0\ref\PathfinderCommsTest.dll

@@ -1,0 +1,10 @@
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\bin\Debug\Program Simulator.exe.config
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\bin\Debug\Program Simulator.exe
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\bin\Debug\Program Simulator.pdb
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\obj\Debug\Program Simulator.csproj.AssemblyReference.cache
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\obj\Debug\Program_Simulator.Form1.resources
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\obj\Debug\Program_Simulator.Properties.Resources.resources
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\obj\Debug\Program Simulator.csproj.GenerateResource.cache
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\obj\Debug\Program Simulator.csproj.CoreCompileInputs.cache
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\obj\Debug\Program Simulator.exe
+C:\Users\Iain Simpson\Desktop\Program Simulator\Program Simulator\obj\Debug\Program Simulator.pdb

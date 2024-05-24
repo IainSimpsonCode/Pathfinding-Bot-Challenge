@@ -13,11 +13,15 @@ if (text == "Reading?")
 }
 
 int boardSize = int.Parse(Console.ReadLine());
+string startPosition = Console.ReadLine();
+string targetPosition = Console.ReadLine();
 Console.ReadLine(); // Start message
 
 string surroundings = Console.ReadLine();
 Console.WriteLine("# Console Test");
 Console.WriteLine("# Board Size = " + boardSize.ToString());
+Console.WriteLine("# Start Position = " + startPosition);
+Console.WriteLine("# Target Position = " + targetPosition);
 
 Console.WriteLine("Right");
 Console.WriteLine("Over");

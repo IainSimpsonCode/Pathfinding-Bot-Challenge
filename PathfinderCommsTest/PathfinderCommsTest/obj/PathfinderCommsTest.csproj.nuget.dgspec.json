@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iain Simpson\\Desktop\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj": {}
+    "C:\\Users\\Iain Simpson\\Desktop\\Pathfinding-Bot-Challenge\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iain Simpson\\Desktop\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj": {
+    "C:\\Users\\Iain Simpson\\Desktop\\Pathfinding-Bot-Challenge\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iain Simpson\\Desktop\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj",
+        "projectUniqueName": "C:\\Users\\Iain Simpson\\Desktop\\Pathfinding-Bot-Challenge\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj",
         "projectName": "PathfinderCommsTest",
-        "projectPath": "C:\\Users\\Iain Simpson\\Desktop\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj",
+        "projectPath": "C:\\Users\\Iain Simpson\\Desktop\\Pathfinding-Bot-Challenge\\PathfinderCommsTest\\PathfinderCommsTest\\PathfinderCommsTest.csproj",
         "packagesPath": "C:\\Users\\Iain Simpson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iain Simpson\\Desktop\\PathfinderCommsTest\\PathfinderCommsTest\\obj\\",
+        "outputPath": "C:\\Users\\Iain Simpson\\Desktop\\Pathfinding-Bot-Challenge\\PathfinderCommsTest\\PathfinderCommsTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

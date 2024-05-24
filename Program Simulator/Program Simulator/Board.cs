@@ -84,6 +84,26 @@ namespace Program_Simulator
         }
 
         /// <summary>
+        /// Returns a string showing the coordinates of the start position.
+        /// 14,54; or 1,122; or 9,8
+        /// </summary>
+        /// <returns></returns>
+        public static string GetStartPositionString()
+        {
+            return start.X.ToString() + "," + start.Y.ToString();
+        }
+
+        /// <summary>
+        /// Returns a string showing the coordinates of the target position.
+        /// 14,54; or 1,122; or 9,8
+        /// </summary>
+        /// <returns></returns>
+        public static string GetTargetPositionString()
+        {
+            return target.X.ToString() + "," + target.Y.ToString();
+        }
+
+        /// <summary>
         /// Returns a string showing the squares surrounding a string.
         /// Shows squares as either a number (thier weight), an X if its blocked, a T for a target or / for out of bounds.
         /// Squares are returned in order from the space directly above the specified location, working around clockwise

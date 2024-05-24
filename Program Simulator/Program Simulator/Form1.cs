@@ -63,6 +63,7 @@ namespace Program_Simulator
                 currentBotLabel.Text = currentBot.mBotName;
                 // Send starting instructions to the bot
                 currentBot.SendConsoleMessages(Board.mBoardSize.ToString());
+                
                 currentBot.SendConsoleMessages("Start");
                 currentBot.mCoordinates = Board.start;
                 currentBot.SendConsoleMessages(Board.GetSquareSurroundingsString(Board.start));

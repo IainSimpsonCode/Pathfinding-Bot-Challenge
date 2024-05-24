@@ -13,6 +13,8 @@ Your bots do not need to interface with any code, thr simulator will communicate
 &gt;&gt; Reading? <br>
 &lt;&lt; My Bots Name // Here, as your reply, send the name of your bot to be shared on screen <br>
 &gt;&gt; 64 // Once the simulator has tested that communication works, it will send through the size of the board. The board will always be square <br>
+&gt;&gt; 1,10 // The simulator will then send the start position (x,y) <br>
+&gt;&gt; 20,122 // and then the simulator will send the target position. Note that 0,0 is the top left corner of the screen, X increases as it moves right, Y increases as it moves down <br>
 &gt;&gt; Start // The simulator will then send a start command to show the simulation has started <br>
 
 // The next section works in a loop until the bot reaches the target <br>

@@ -45,8 +45,12 @@
             this.pathCostTitleLabel = new System.Windows.Forms.Label();
             this.totalStepsLabel = new System.Windows.Forms.Label();
             this.pathCostLabel = new System.Windows.Forms.Label();
+            this.seedUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.randomSeedingCheckBox = new System.Windows.Forms.CheckBox();
             this.consoleOutputGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sizeOfBoardSlider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seedUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // currentBotTitleLabel
@@ -162,7 +166,7 @@
             // weightingCheckBox
             // 
             this.weightingCheckBox.AutoSize = true;
-            this.weightingCheckBox.Location = new System.Drawing.Point(12, 173);
+            this.weightingCheckBox.Location = new System.Drawing.Point(12, 149);
             this.weightingCheckBox.Name = "weightingCheckBox";
             this.weightingCheckBox.Size = new System.Drawing.Size(125, 20);
             this.weightingCheckBox.TabIndex = 10;
@@ -195,7 +199,7 @@
             // totalStepsTitleLabel
             // 
             this.totalStepsTitleLabel.AutoSize = true;
-            this.totalStepsTitleLabel.Location = new System.Drawing.Point(14, 114);
+            this.totalStepsTitleLabel.Location = new System.Drawing.Point(9, 114);
             this.totalStepsTitleLabel.Name = "totalStepsTitleLabel";
             this.totalStepsTitleLabel.Size = new System.Drawing.Size(79, 16);
             this.totalStepsTitleLabel.TabIndex = 13;
@@ -204,7 +208,7 @@
             // pathCostTitleLabel
             // 
             this.pathCostTitleLabel.AutoSize = true;
-            this.pathCostTitleLabel.Location = new System.Drawing.Point(26, 141);
+            this.pathCostTitleLabel.Location = new System.Drawing.Point(12, 130);
             this.pathCostTitleLabel.Name = "pathCostTitleLabel";
             this.pathCostTitleLabel.Size = new System.Drawing.Size(67, 16);
             this.pathCostTitleLabel.TabIndex = 14;
@@ -222,11 +226,44 @@
             // pathCostLabel
             // 
             this.pathCostLabel.AutoSize = true;
-            this.pathCostLabel.Location = new System.Drawing.Point(99, 141);
+            this.pathCostLabel.Location = new System.Drawing.Point(99, 130);
             this.pathCostLabel.Name = "pathCostLabel";
             this.pathCostLabel.Size = new System.Drawing.Size(14, 16);
             this.pathCostLabel.TabIndex = 16;
             this.pathCostLabel.Text = "0";
+            // 
+            // seedUpDown
+            // 
+            this.seedUpDown.Location = new System.Drawing.Point(12, 205);
+            this.seedUpDown.Name = "seedUpDown";
+            this.seedUpDown.Size = new System.Drawing.Size(120, 22);
+            this.seedUpDown.TabIndex = 17;
+            this.seedUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.seedUpDown.ValueChanged += new System.EventHandler(this.seedUpDown_ValueChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 186);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 16);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Seed:";
+            // 
+            // randomSeedingCheckBox
+            // 
+            this.randomSeedingCheckBox.AutoSize = true;
+            this.randomSeedingCheckBox.Location = new System.Drawing.Point(12, 168);
+            this.randomSeedingCheckBox.Name = "randomSeedingCheckBox";
+            this.randomSeedingCheckBox.Size = new System.Drawing.Size(163, 20);
+            this.randomSeedingCheckBox.TabIndex = 19;
+            this.randomSeedingCheckBox.Text = "Use Random Seeding";
+            this.randomSeedingCheckBox.UseVisualStyleBackColor = true;
+            this.randomSeedingCheckBox.CheckedChanged += new System.EventHandler(this.randomSeedingCheckBox_CheckedChanged);
             // 
             // Form1
             // 
@@ -234,6 +271,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1503, 1022);
+            this.Controls.Add(this.randomSeedingCheckBox);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.seedUpDown);
             this.Controls.Add(this.pathCostLabel);
             this.Controls.Add(this.totalStepsLabel);
             this.Controls.Add(this.pathCostTitleLabel);
@@ -257,6 +297,7 @@
             this.consoleOutputGroupBox.ResumeLayout(false);
             this.consoleOutputGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sizeOfBoardSlider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.seedUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -281,6 +322,9 @@
         private System.Windows.Forms.Label pathCostTitleLabel;
         private System.Windows.Forms.Label totalStepsLabel;
         private System.Windows.Forms.Label pathCostLabel;
+        private System.Windows.Forms.NumericUpDown seedUpDown;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox randomSeedingCheckBox;
     }
 }
 

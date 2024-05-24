@@ -193,7 +193,7 @@ namespace Program_Simulator
         public static void PlaceTarget()
         {
             // Find a random space for the target
-            Random random = new Random();
+            Random random = new Random(Form1.seed);
             int x = random.Next(1, mBoardSize - 1);
             int y = random.Next(1, mBoardSize - 1);
             Board.target = new Vector2(x, y);
@@ -232,12 +232,13 @@ namespace Program_Simulator
         /// </summary>
         public static void PlaceStart()
         {
+            int startSeed = Form1.seed;
             bool validStart = false;
 
             do
             {
                 // Find a random space for the start that is not on the target
-                Random random = new Random();
+                Random random = new Random(startSeed);
                 int x = random.Next(1, mBoardSize - 1);
                 int y = random.Next(1, mBoardSize - 1);
                 Board.start = new Vector2(x, y);
@@ -246,6 +247,7 @@ namespace Program_Simulator
                 {
                     // Invalid start position
                     // Retry
+                    startSeed++;
                 }
                 else
                 {

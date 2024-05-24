@@ -20,7 +20,25 @@ namespace Program_Simulator
 
         // Bools to control the state of the system
         bool simulationRunning = false;
-        bool isGenerated = false;        
+        bool isGenerated = false;
+        static bool useRandomSeed = false;
+        private static int _seedValue = 0;
+        public static int seed
+        {
+            get
+            {
+                if (useRandomSeed)
+                {
+                    Random random = new Random();
+                    return random.Next();
+                }
+                else
+                {
+                    return _seedValue;
+                }
+            }
+        }
+
 
         public Form1()
         {
@@ -239,7 +257,7 @@ namespace Program_Simulator
                 }
 
                 // Give each square a weighting
-                Random random = new Random();
+                Random random = new Random(Form1.seed);
                 foreach (Square square in Board.squares)
                 {
                     int randomWeight = random.Next(0, 255);
@@ -338,6 +356,16 @@ namespace Program_Simulator
                 currentBot.Clear();
                 panel1.Refresh();
             }
+        }
+
+        private void seedUpDown_ValueChanged(object sender, EventArgs e)
+        {
+            _seedValue = (int)seedUpDown.Value;
+        }
+
+        private void randomSeedingCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            useRandomSeed = randomSeedingCheckBox.Checked;
         }
     }
 }

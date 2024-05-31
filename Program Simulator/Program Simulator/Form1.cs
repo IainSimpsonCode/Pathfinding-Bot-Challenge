@@ -30,7 +30,8 @@ namespace Program_Simulator
                 if (useRandomSeed)
                 {
                     Random random = new Random();
-                    return random.Next();
+                    int randomNum = random.Next();
+                    return randomNum;
                 }
                 else
                 {
